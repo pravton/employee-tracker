@@ -48,24 +48,11 @@ VALUES
 ('Krish', 'Kendall', 17, NULL),
 ('Aada', 'Laine', 19, NULL),
 ('Andrew', 'Posen', 23, NULL),
-('James', 'Fraser', 1, 4),
-('Jack', 'London', 3, 4),
-('Robert', 'Bruce', 6, 8),
-('Peter', 'Greenaway', 13, 14),
-('Derek', 'Jarman', 16, 17),
-('Paolo', 'Pasolini', 18, 19),
-('Heathcote', 'Williams', 22, 23);
-
-SELECT 
-    CONCAT(m.first_name, ', ', m.last_name) AS Manager,
-    CONCAT(e.last_name, ', ', e.first_name) AS 'Direct report',
-    e.id,
-    e.manager_id
-
-FROM
-    employee e
-INNER JOIN employee m ON 
-    m.manager_id = e.id
-ORDER BY 
-    Manager;
+('James', 'Fraser', 1, 1),
+('Jack', 'London', 3, 1),
+('Robert', 'Bruce', 6, 3),
+('Peter', 'Greenaway', 13, 3),
+('Derek', 'Jarman', 16, 4),
+('Paolo', 'Pasolini', 18, 5),
+('Heathcote', 'Williams', 22, 6);
 
