@@ -9,9 +9,11 @@ A command-line application to manage a company's employee database, using Node.j
 
 - [Installation](#%EF%B8%8F-installation)
 - [Usage](#%EF%B8%8F-usage)
+- [Walkthrough Video](#%EF%B8%8F-walkthrough-video)
+- [Final Output GIF](#%EF%B8%8F-final-output-gif)
+- [Final Output HTML](#%EF%B8%8F-final-output-html)
 - [License](#-license)
 - [Contributing](#-contributing)
-
 - [Questions](#-questions)
   
 
@@ -30,9 +32,19 @@ npm install
 Use the files on the db folder to create the database, tables and content, and start app to query the database. Use the following commands
 
 ```
+source/db.sql
+source/schema.sql
+source/seeds.sql
 npm start
 ```
 
+## 🎞️ Walkthrough Video
+
+[**Click Here**](https://www.youtube.com/) to view the walkthrough video.
+
+## ▶️ Final Output GIF
+
+![Final Output](./src/images/final-output.gif "Final output of the project")
 
 
 ## 📝 License
