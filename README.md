@@ -11,7 +11,6 @@ A command-line application to manage a company's employee database, using Node.j
 - [Usage](#%EF%B8%8F-usage)
 - [Walkthrough Video](#%EF%B8%8F-walkthrough-video)
 - [Final Output GIF](#%EF%B8%8F-final-output-gif)
-- [Final Output HTML](#%EF%B8%8F-final-output-html)
 - [License](#-license)
 - [Contributing](#-contributing)
 - [Questions](#-questions)
