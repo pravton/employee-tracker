@@ -40,7 +40,7 @@ npm start
 
 ## 🎞️ Walkthrough Video
 
-[**Click Here**](https://www.youtube.com/) to view the walkthrough video.
+[**Click Here**](https://www.youtube.com/watch?v=QISEkeakgxs) to view the walkthrough video.
 
 ## ▶️ Final Output GIF
 
